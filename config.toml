@@ -1,6 +1,6 @@
-baseurl = "https://yuleisui.github.io/"  # End your URL with a `/` trailing slash.
-title = "Yulei Sui"
-copyright = "&copy; 2017 Yulei Sui"
+baseurl = "https://example.com/"  # End your URL with a `/` trailing slash.
+title = "Academic"
+copyright = "&copy; 2016 Your Name"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
