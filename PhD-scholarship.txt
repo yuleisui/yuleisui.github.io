@@ -2,7 +2,7 @@ Software engineering and machine learning PhD positions/scholarships available a
 
 UTS is a world-leading university of technology (ranked 1st in Australia and 8th globally in the QS Top 50 under 50 index of newer universities and is five star rated in QS). UTS Computer Science is ranked among the top 100 universities by QS 2018 globally (https://www.topuniversities.com/university-rankings/university-subject-rankings/2017/computer-science-information-systems), and No. 48 world-wide based on Shanghai JiaoTong University’s academic rankings in 2017. The Centre for Artificial Intelligence (CAI), as one of the priority research Centres of UTS, is a world leading research hub for artificial intelligence.
 
- We have 1-2 PhD positions openining with scholarships for outstanding candidates for 3.5 years. The idea candidate will be based in CAI to conduct her/his research in one of the following topics:
+We have 1-2 PhD positions openining with scholarships for outstanding candidates for 3.5 years. The idea candidate will be based in CAI to conduct her/his research in one of the following topics:
 
 (1) Machine-learning based software security analysis,
 (2) Fundamental static program analysis to improve software security and reliability,
@@ -11,7 +11,7 @@ UTS is a world-leading university of technology (ranked 1st in Australia and 8th
 (5) Software analytics, mining software repository 
  
 
-The PhD student will be supervised under Dr. Yulei Sui (http://yuleisui.github.io/). The stipend of the scholarship is $26,288 per annum (tax exempt) for 3.5 years, plus travel funds for attending conferences. The qualified candidate will also receive a tuition-fee waiver. 
+The PhD student will be supervised under Dr. Yulei Sui (http://yuleisui.github.io/). The stipend of the scholarship is $26,682 per annum (tax exempt) for 3.5 years, plus travel funds for attending conferences. The qualified candidate will also receive a tuition-fee waiver. 
 
 We are looking for self-motivated candidates who meet the following requirements:
 * a bachelor's or master's degree in the area of Computer Science or related discipline with outstanding grades. 
