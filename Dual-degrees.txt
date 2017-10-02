@@ -1,0 +1,23 @@
+澳大利亚悉尼科技大学 (University of Technology Sydney, UTS) 招收"双博士学位学生"
+
+ 
+1. 申请时已经在中国大学入学的博士生 
+2. 有雅思或托福成绩， 雅思(Academic) overall 6, writing 6. TOEFL (Internet-based): 60-78, writing 21
+3. 硕士或本科成绩平均分在80分以上 
+4. 文章录用或发表（加分项） 
+5. 获奖证明（加分项）
+
+招收学生的主要研究领域：
+	大规模程序分析,
+	人工智能指导下的软件安全分析,
+	手机恶意软件及漏洞分析,
+	智能软件检测和修复
+
+双博士在提交论文通过后可以同时获得两边的博士学位，优于CSC的联合培养。
+
+UTS对所有的签约高校的学生开放双博士学位申请包括北京理工，华中科技大学，上海大学，中山大学，香港理工等众多中国高校。请见：
+https://www.uts.edu.au/research-and-teaching/research-degrees/explore-uts-research-degrees/benefits-research-degree-0
+
+申请没有截止日期。有兴趣的学生请联系 Dr. Yulei Sui (rockysui@gmail.com).
+同时欢迎和国内高校老师通过此项目共同培养学生（双博士）
+
