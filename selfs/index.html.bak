@@ -1,0 +1,109 @@
+<html>
+
+<head>
+  <title>SELFS project</title>
+</head>
+
+<body>
+<table align="center" style="width:1000px">
+
+<tr><td><b>Introduction</b></td></tr>
+
+<tr><td>
+<p>This is a virtual machine image created by VirtualBox 4.1.12 on Ubuntu 12.04. The operating system in the virtual machine image is also Ubuntu 12.04. An account named "sas14" has been created and its password is the name as the account name, i.e., "sas14".</p>
+</td></tr>
+
+<tr><td>System Requirements</td></tr>
+
+<tr><td>
+<p>In the SPEC benchmark suite, "gcc" may cost some memory to analyze. We recommend you to allocate at least 16GB memory to the virtual machine. If you don't want to deal with "gcc", then 8GB memory is enough for each of the remaining SPEC benchmarks evaluated in our paper.</p>
+
+<p>To run the virtual machine image, you need to have a VirtualBox (4.1.12 or newer) installed on your machine.</p>
+</td></tr>
+
+<tr><td>Quick Guidelines</td></tr>
+
+<tr><td>
+<p>The SELFS project is located in the "pta" directory under the HOME directory of the user named "sas14". To run the tests as we did for in our paper, open a terminal and do:</p>
+
+    cd /home/sas14/pta/     # Go to the SELFS project directory
+    . ./setup.sh            # Set up environment variables
+    cd sas_exp              # Go to the test directory
+
+<p>To reproduce our results in Figures 6 -- 8 for both SFS and SELFS across the 14 benchmarks, execute the script "run_all.sh":</p>
+
+    ./run_all.sh
+
+<p>Please note all the results related to analysis times in our paper are obtained on a 2.00GHz Intel Xeon 32-core CPU running Ubuntu Linux with 64GB memory, as described in Section 4. Obtaining all results this way takes about 40 mins on this platform.</p>
+
+<p>You can also analyze a single program, say, "ammp.orig", as follows:</p>
+
+    ./run_single.sh ammp.orig
+
+<p>This will produce the results in Figures 6 -- 8 for "ammp.orig" under both the analyses evaluated, SFS and SELFS.</p>
+
+<p>If you want to try SFS or SELFS separately for an individual program, say, "ammp.orig", the commends to use are:</p>
+
+    ./run_single.sh SFS ammp.orig       # SFS on ammp.orig
+        or
+    ./run_single.sh SELFS ammp.orig     # SELFS on ammp.orig
+
+</td></tr>
+
+<tr><td>Project Layout</td></tr>
+
+<tr><td>
+<p>The SELFS project is located under the "pta" directory, which resides under the HOME directory of "sas14". The directory structure is:</p>
+
+    pta                     # Top directory for SELFS 
+     |-Release+Asserts      # The SELFS executables
+     |  |-bin
+     |  |  |-wpa            # Whole-program analysis engine
+     |  |-lib
+     |-sas_exp
+     |  |-*.orig            # Benchmarks compiled into LLVM bit-code
+     |  |-*.sh, *.pl        # Scripts for running tests
+     |  |-micro_benchmarks  # Small C programs
+     |-setup.sh             # Script for setting up environment variables
+
+</td></tr>
+
+<tr><td>The Benchmarks We Provide</td></tr>
+
+<tr><td>
+<p>The benchmarks used in our paper are stored under "sas_exp" directory. There are 14 programs from both SPEC2000 and SPEC2006:</p>
+
+    SPEC2000: ammp, crafty, gcc, mesa, parser, perlbmk, twolf, vortex, vpr.
+    SPEC2006: h264ref, hmmer, milc, sjeng, sphinx3.
+
+<p>We have also provided a few other benchmarks:</p>
+
+    SPEC2000: art, bzip2, equake, gzip, mcf
+    SPEC2006: lbm, libquantum
+
+<p>All these programs have been compiled into the LLVM bitcode file format by "clang" and linked together by "llvm-link".</p>
+
+<p>Some small C programs have been provided in the directory "/home/sas14/pta/sas_exp/micro_benchmarks/", you can compile them into LLVM bitcode files by</p>
+
+    ./compile_all.sh                   # Compile all C files
+        or
+    ./compile_single.sh one_program.c  # Compile one C file
+
+<p>For each bitcode file (.opt file) generated, you can try to analyze it by using the script "run_single.sh" as before.</p>
+
+<p>To run your own C programs, please compile them with "compile_single.sh" as mentioned above. Then you can run SFS/SELFS with the "run_single.sh" over the bitcode files generated. For large programs with multiple bitcode files, please refer to</p>
+    http://llvm.org/docs/CommandGuide/llvm-link.html
+<p>for details on how to link several bitcode files into one.</p>
+</td></tr>
+
+<tr><td>
+<p>Enjoy!</p>
+
+<p>Sen Ye, Yulei Sui and Jingling Xue</p>
+<p>Programming Languages and Compiler Group</p>
+<p>School of Computer Science and Engineering, UNSW Australia</p>
+
+</td></tr>
+
+</body>
+</html>

@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<!-- Template by quackit.com -->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+            <title> SUPA </title>
+            <style type="text/css">
+                
+                body {
+                    margin:0;
+                    padding:0;
+                    font-family: Sans-Serif;
+                    line-height: 1.5em;
+                }
+            
+            header {
+                background: #BCCE98;
+                height: 100px;
+            }
+            
+            header h1 {
+                margin: 0;
+                padding-top: 15px;
+            }
+            
+            main {
+                padding-bottom: 10010px;
+                margin-bottom: -10000px;
+                float: left;
+                width: 100%;
+            }
+            
+            nav {
+                padding-bottom: 10010px;
+                margin-bottom: -10000px;
+                float: left;
+                width: 230px;
+                margin-left: -230px;
+                background: #eee;
+            }
+            
+            footer {
+                clear: left;
+                width: 100%;
+                background: #BCCE98;
+                text-align: center;
+                padding: 4px 0;
+            }
+            
+            #wrapper {
+                overflow: hidden;
+            }
+            
+            #content {
+                margin-right: 230px; /* Same as 'nav' width */
+                vertical-align: middle;
+                text-align: left;
+                vertical-align: middle;
+                font-family: Sans-Serif;
+                font-weight: normal; font-size: 12pt;
+                margin: 1em 0.5em 1em 0.5em;
+                padding-left: 1em;
+                width: 1250px
+            }
+            
+            .innertube {
+                margin: 15px; /* Padding for content */
+                margin-top: 0;
+            }
+            
+            p {
+                color: #555;
+            }
+            
+            nav ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            
+            nav ul a {
+                color: darkgreen;
+                text-decoration: none;
+            }
+            
+            .www_title  { font-family: "Georgia,Palatino,Times,Roman";
+                font-size: 30pt;
+                text-align: center;}
+            
+            .www_sidebar  { text-align: center;
+                font-family: "Georgia,Palatino,Times,Roman";
+                font-size: 12pt;
+                margin-left: 0em; margin-right: 0em;
+                padding: 0.15em 0.15em 0.15em .15em;
+                width: 100%;
+                background: url("img/lines.gif");
+                border: 2px solid #cccccc }
+            
+            .www_sectiontitle, .www_subsection {
+                border-width: 1px;
+                border-style: solid none solid none;
+                text-align: center;
+                vertical-align: middle;
+                font-family: "Georgia,Palatino,Times,Roman";
+                font-weight: bold; font-size: 18pt;
+                background: url("img/lines.gif");
+                padding: 0.1em 0.1em 0.1em .1em;
+                width: 100%;
+                margin-bottom: 0.3em; }
+            
+            .www_subsection { width: 75%;
+                text-align: left;  font-size: 12pt; }
+            
+            .www_subsubsection { margin: 1.0em 0.5em 0.5em 0.5em;
+                font-weight: bold; font-style: oblique;
+                border-bottom: 1px solid #999999; font-size: 12pt;
+                width: 75%; }
+            
+            .www_code { border: solid 1px gray; background: #eeeeee;
+                margin: 0 1em 0 1em;
+                padding: 0 1em 0 1em;
+                display: table; }
+            
+            .www_footer { text-align: left; padding: 0 0 0 0 }
+            
+            /* Publications */
+            .pub_title  { font-family: "Georgia,Palatino,Times,Roman";
+                font-size: 24pt;
+                text-align: center }
+            
+            .pub_author { font-size: 14pt; text-align: center }
+            
+            /* Releases */
+            .rel_container { text-align: center;
+                margin-left: 20% }
+            
+            .rel_title   { text-align: center;
+                font-family: "Georgia,Palatino,Times,Roman";
+                font-weight: bold; font-size: 22pt;
+                margin-bottom: 0.5em }
+            
+            
+            .rel_section { vertical-align: middle;
+                border-width: 1px;
+                border-style: solid none solid none;
+                text-align: left;
+                vertical-align: middle;
+                font-family: "Georgia,Palatino,Times,Roman";
+                font-weight: bold; font-size: 18pt;
+                background: url("img/lines.gif");
+                margin: 1em 0.5em 1em 0.5em;
+                padding-left: 1em;
+                width: 350px }
+            
+            .rel_sectiontxt { padding: 0 1em 0 1em;
+                margin: 1em 0.5em 1em 0.5em }
+            
+            .rel_intro,
+            .rel_boxtext { text-align: left;
+                font-family: "Georgia,Palatino,Times,Roman";
+                /*		font-family: "Times New Roman"; */
+                font-size: 11pt;
+                padding: 0.5em 0.5em 0.5em 1.5em;
+                margin-left: 2em; margin-right: 3em;
+                width: 60%;
+                background: #f7f7f7;
+                border: 2px solid #cccccc }
+            .www TD, TH    { border: 2px solid gray; padding: 4pt 4pt 2pt 2pt;
+                text-align: left; }
+            .www TH        { border: 2px solid gray; font-weight: bold; font-size: 105%;
+                color: black; background: url("img/lines.gif");
+                font-family: "Georgia,Palatino,Times,Roman,SanSerif"; 
+                text-align: center; vertical-align: middle; }
+            TABLE.www      { text-align: left; border: 2px solid black; 
+                border-collapse: collapse; margin-top: 1em; margin-left: 1em; 
+                margin-right: 1em; margin-bottom: 1em; }
+
+            
+                </style>
+            
+            <script type="text/javascript">
+                /* =============================
+                 This script generates sample text for the body content.
+                 You can remove this script and any reference to it.
+                 ============================= */
+            var bodyText=["The smaller your reality, the more convinced you are that you know everything.", "If the facts don't fit the theory, change the facts.", "The past has no power over the present moment.", "This, too, will pass.", "</p><p>You will not be punished for your anger, you will be punished by your anger.", "Peace comes from within. Do not seek it without.", "<h3>Heading</h3><p>The most important moment of your life is now. The most important person in your life is the one you are with now, and the most important activity in your life is the one you are involved with now."]
+            function generateText(sentenceCount){
+                for (var i=0; i<sentenceCount; i++)
+                document.write(bodyText[Math.floor(Math.random()*7)]+" ")
+            }
+            </script>
+            
+            </head>
+    
+    <body>
+        
+        <header>
+            <div class="innertube">
+                <h1>SUPA: On-Demand Strong Updates Analysis via Value-Flow Refinement</h1>
+                
+                <p>
+                <a href="http://www.cse.unsw.edu.au/~ysui"><font size="3pt">Yulei Sui</font></a> &nbsp;&nbsp;&nbsp;
+                <a href="http://www.cse.unsw.edu.au/~jingling"><font size="3">Jingling Xue</font></a> &nbsp;&nbsp;&nbsp;
+                <br><i><font size="2.8pt"><a href="http://www.cse.unsw.edu.au/">School of Computer Science and Engineering  </a>, <a href="http://www.unsw.edu.au/">
+                    UNSW Australia</a></font></i>
+                
+                </p>
+                
+            </div>
+        </header>
+        
+        <div id="wrapper">
+            
+            <main>
+                
+                    
+                    <div class="rel_section">1. Description</div>
+                    <div id="content">
+                        
+                        <p><B>SUPA</B> is a new demand-driven <u>S</u>trong <u>UP</u>date <u>A</u>nalysis that computes points-to information on-demand via value-flow refinement. We formuate SUPA  by solving a graph-reachability problem on a value-flow graph representation of the program, so that strong updates are performed where needed with imprecisely pre-computed value-flows being refined away, as long as the total analysis budget is not exhausted. SUPA facilitates efficiency and precision tradeoffs by allowing different pointer analyses to be applied in a hybrid multi-stage analysis framework.
+                        </p>
+                    </div>
+                    
+                    
+                    
+                    <div class="rel_section">2. Paper and Artifact</div>
+                    <div id="content">
+                        
+                        <p><a href="http://www.cse.unsw.edu.au/~ysui/papers/fse16.pdf">On-Demand Strong Update Analysis via Value-Flow Refinement</a>  <i> ACM SIGSOFT International Symposium on the Foundations of Software Engineering </i> (<a href="www.cs.ucdavis.edu/fse2016/">FSE' 16</a>)</p>
+                        
+                        <p><a href="http://cgi.cse.unsw.edu.au/~ysui/supa.php">Virtual Image of SUPA Framework: SUPA.ova</a> (~5GB)</p>
+                        
+                        <p> <b> SUPA </b> is built on top of <a href="http://unsw-corg.github.io/SVF"> SVF</a>, a static value-flow analysis framework operating on LLVM-IR. <b> SUPA </b> will be integrated into SVF based on the latest release of LLVM (version 3.8.0). The core source code files reside under "include/DDA" and "lib/DDA". Its executable file "dvf" can be found at "Release+Asserts/bin/dvf" after a successful build. 
+			</p>
+
+                        <p>To help users reproduce the data in the paper,
+                        we have also provided a virtual machine image, which
+                        contains the releases of  <b>SUPA</b>, together with
+                        scripts and benchmarks used in our experimental evaluation,
+                        as described in the paper.
+                        </p>
+                        
+                        <p>
+                        The OS in the virtual machine image is Ubuntu 12.04.
+                        A user account has been created with both its username and password as "pta". To run <b>SUPA</b>, you are advised to allocate at least 16GB memory to the virtual machine. The whole-program sparse flow analysis, denoted SFS in the paper requires large memory, as a lower memory budget may force OS to kill the running process when it is used to analyse some large programs, e.g., vim, gdb, emacs. Finally, a <a href="https://www.virtualbox.org/">VirtualBox</a> with version 4.1.12 or newer is required to run the image.</p>
+                    </div>
+                    
+                    
+                    <div class="rel_section">3. Quick Guidelines</div>
+                    <div id="content">
+                        
+                        <p>To run the experiments as we did for in our paper, open a terminal and do:</p>
+
+                        
+                        <table id="sas_dir" cellpadding="3px" cellspacing="4px">
+                            <tbody><tr>
+                                <td><b>cd /home/pta/pta/</b></td>
+                                <td><font color="green"># Go to the SUPA project directory, denoted as $SUPAHOME</font></td>
+                            </tr>
+                            <tr>
+                                <td><b>. ./setup.sh</b></td>
+                                <td><font color="green"># Set up environment variables <i> (please note that there is a white space between the two dots)</font></i></td>
+                            </tr>
+                            <tr>
+                                <td><b>cd SUPA-exp</b></td>
+                                <td><font color="green"># Go to the experiment directory</font></td>
+                            </tr>
+                            </tbody></table>
+
+
+                        <p> To run three analyses for all 12 benchmarks, execute the following scripts: </p>
+                        <table id="f12" ,="" cellpadding="3px" cellspacing="4px">
+                            <tbody><tr><td><b>./run.sh DFS</b></td>
+                                <td><font color="green"># Run SUPA-FS analysis only</font></td> </tr>
+                            <tr><td><b>./run.sh CXT</b></td>
+                                <td><font color="green"># Run SUPA-FSCS analysis</font></td> </tr>
+                            <tr><td><b>./run.sh SFS</b></td>
+                                <td><font color="green"># Run whole-program sparse flow-sensitive analysis</font></td> </tr>
+                            </tbody></table>
+
+                        <p> Please note that all the results related to analysis times and memory usage in our paper are obtained on a machine with 3.7G Hz Intel Xeon 8-core CPU and 64 GB memory. On this platform, obtaining the results for SUPA may take about 30 mins with a budget of 1000, and obtaining the results for SFS may take more than five hours (especially for large programs, such as bash, vim, emacs). </p>
+                        
+                        <p> Initially, the users are advised to analyse a few benchmarks with lower budgets using the default configuration files 'budget' and 'benchmarks'. To analyse all the benchmarks, please use another configuration file containing all the benchmarks (please remember to re-run everything if the configuration files are changed): </p>
+                        
+                        <table id="f12" ,="" cellpadding="3px" cellspacing="4px">
+                            <tbody><tr><td><b>cp benchmarks.full benchmarks</b></td>
+                                <td><font color="green"># configured to analyze all benchmarks</font></td> </tr>
+                            <tr><td><b>vi budget</b></td>
+                                <td><font color="green"># configured with customized budget (e.g, 10000). SUPA completely re-run under each budget setting </font></td> </tr>
+                            </tbody></table>
+                        
+                        
+                        <p>After the analyses are all <u>fully</u> finished, you can collect data for tables and figures using scripts in the same folder: </p>
+                        <table>
+                        <tbody><tr>
+                            <td><b>./figure_9.sh</b></td>
+                            <td><font color="green"># Reproduce the data in Figure 9</font></td>
+                        </tr>
+                        <tr>
+                            <td><b>./table_2.sh</b></td>
+                            <td><font color="green"># Reproduce the data in Table 2</font></b></td>
+                        </tr>
+                        <tr>
+                            <td><b>./figure_10.sh</b></td>
+                            <td><font color="green"># Reproduce the data in Figure 10</font></td>
+                        </tr>
+                        <tr>
+                            <td><b>./figure_11.sh</b></td>
+                            <td><font color="green"># Reproduce the data in Figure 11</font></td>
+                        </tr>
+                        <tr>
+                            <td><b>./table_3.sh</b></td>
+                            <td><font color="green"># Reproduce the data in Table 3</font></td>
+                        </tr>
+                        </tbody></table>
+                        
+                        
+                        <p>For comparison purposes, we have also provide the experimental data used in the paper are provided under "$SUPAHOME/SUPA-exp/supa-fse/". </p>
+                        
+                        <p>To reproduce the results shown in tables and figures with the provided data, issue the following commands:</p>
+                        
+                        <table>
+                            <tbody><tr>
+                                <td><b>./figure_9.sh supa-fse</b></td>
+                            </tr>
+                            <tr>
+                                <td><b>./table_2.sh supa-fse</b></td>
+                            </tr>
+                            <tr>
+                                <td><b>./figure_10.sh supa-fse</b></td>
+                            </tr>
+                            <tr>
+                                <td><b>./figure_11.sh supa-fse</b></td>
+                            </tr>
+                            <tr>
+                                <td><b>./table_3.sh supa-fse</b></td>
+                            </tr>
+                            </tbody></table>
+
+
+                        
+                    </div>
+
+                    <div class="rel_section">4. Benchmarks</div>
+                    <div id="content">
+                       <p> The benchmarks used in our paper are stored under “SUPA_exp" directory.
+                        There are 12 programs from open-source programs: </p>
+                        
+                        <font color="blue">a2ps, bison, bash, emacs, grep, make, hmmer, less, milc, sendmail, tar, vim </font>
+                        
+                        <p>The source code of each program is compiled into bit code files using clang and then merged together using <a href="http://llvm.org/docs/GoldPlugin.html">LLVM Gold Plugin</a> at link time stage (LTO) to produce a whole-program bc file. </p>
+                        
+                        <p>We have also provided a micro-benchmark suite <a href="https://github.com/unsw-corg/PTABen">PTABen</a> to validate the correctness of our pointer analysis algorithms for both single- and multi-threaded C programs. Please refer this <a href="https://github.com/unsw-corg/PTABen">link</a> to see the source code hosted on GitHub. The layout of the test suite is as follows:</p>
+                        
+                        <table id="spec_not_used" ,="" cellpadding="3px" cellspacing="4px">
+                            <tbody><tr><td>
+                                fi_tests : <i>flow-insensitive tests </i>
+                            </td></tr>
+                            <tr><td>
+                                fs_tests : <i>flow-sensitive tests</i>
+                            </td></tr>
+                            <tr><td>
+                                cs_tests :  <i>context-sensitive tests</i>
+                            </td></tr>
+                            <tr><td>
+                                path_tests :   <i>path-sensitive tests</i>
+                            </td></tr>
+                            <tr><td>
+                                complex_tests  :  <i> 	complex test cases simplified from real programs</i>
+                            </td></tr>
+                            <tr><td>
+                                scripts : <i>scripts to run the tests</i>
+                            </td></tr>
+                            </tbody></table>
+
+<p>Some micro-benchmarks can be found under
+"/home/pta/pta/tests/". You can compile them into
+LLVM bitcode files by running:</p>
+
+<table id="spec_not_used" ,="" cellpadding="3px" cellspacing="4px">
+    <tbody><tr>
+        <td> <b>clang -c -emit-llvm -g example.c -o example.bc </b></td>
+        <td> <font color="green"># add "-g" option for debugging purpose </font></td>
+    </tr>
+    <tr>
+        <td> <b>opt -mem2reg example.bc -o example.opt </b></td>
+        <td> <font color="green"># optional </font></td>
+    </tr>
+    </tbody></table>
+
+<p>For each bitcode file (.bc or .orig benchmark files from SUPA-exp) generated, you can
+try to analyse it by using </p>
+
+
+<table id="spec_not_used" ,="" cellpadding="3px" cellspacing="4px">
+    <tbody><tr>
+        <td> <b>dvf -dfs -flowbg=1000 example.bc </b></td>
+        <td> <font color="green"># Run SUPA-FS (flow-sensitive only) with a budget of 1000</font></td>
+    </tr>
+    <tr>
+        <td> <b>dvf -cxt -flowbg=1000 -cxtbg=1000 example.bc </b></td>
+        <td> <font color="green"># Run SUPA-FSCS (flow and context-sensitive) with a budget of 1000 in both FSCS and FSCI stages </font></td>
+    </tr>
+    <tr>
+        <td> <b>dvf -cxt -maxcxt=3 example.bc </b></td>
+        <td> <font color="green"># Enable k-limiting context-sensitive analysis of SUPA-FSCS, where k=3. </font></td>
+    </tr>
+    
+    
+    </tbody></table>
+
+
+
+
+<p>For large programs with multiple
+bitcode files, please refer to
+<a href="https://github.com/unsw-corg/SVF/wiki/Install-LLVM-Gold-Plugin-on-Ubuntu">Install and Use LLVM Gold Plugin in SVF </a> for details on how to link several bitcode files into one.</p>
+
+
+
+
+                    </div>
+                    
+                    
+                    <div class="rel_section">5. LICENSE</div>
+                    <div id="content">
+                        <p> GPLv3 </p>
+                    </div>
+                    
+                    
+                    <div class="rel_section">6. Contacts and Collaborations</div>
+                    <div id="content">
+                        <p> Feel free to contact : <i><u>ysui AT cse.unsw.edu.au</u></i> or <i><u>jingling AT cse.unsw.edu.au</u></i>. Any comments, contributions and collaborations are welcomed.
+ </p>
+                    </div>
+                    
+                    
+                    
+                    
+            </main>
+            
+            <nav>
+                <div class="innertube">
+                    <h3>SUPA</h3>
+                    <ul>
+                        <li><a href="#">1.Descritiopn</a></li> <br>
+                        <li><a href="#">2.Paper and Artifact</a></li> <br>
+                        <li><a href="#">3.Quick Guidelines</a></li> <br>
+                        <li><a href="#">4.Benchmarks</a></li> <br>
+                        <li><a href="#">5.License </a></li> <br>
+                        <li><a href="#">6.Contacts and Collaborations </a></li> <br>
+                    </ul>
+                </div>
+            </nav>
+            
+        </div>
+        
+        <footer>
+            <div class="innertube">
+                <p style="font-size:smaller">
+                This web site is hosted by the
+                <a href="http://www.cse.unsw.edu.au/~corg">Programming Languages and Compilers Group</a>
+                at the
+                <a href="http://www.uiuc.edu/">University of New South Wales, Australia</a>.
+                </p>
+            </div>
+        </footer>
+        
+	<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			  ga('create', 'UA-78620235-1', 'auto');
+			    ga('send', 'pageview');
+
+		    </script>
+        
+    </body>
+</html>

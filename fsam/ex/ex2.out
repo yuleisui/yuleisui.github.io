@@ -1,0 +1,479 @@
+****CallGraph SCC Stat****
+################ (program : )###############
+-------------------------------------------------------
+TotalNode           7
+TotalEdge           5
+TotalCycle          0
+NodeInCycle         0
+MaxNodeInCycle      0
+CalRetPairInCycle   0
+#######################################################
+
+****Andersen Pointer Analysis Statistics****
+################ (program : )###############
+TotalPointers       52
+TotalObjects        18
+TotalFieldObjects   0
+MaxStructSize       0
+TotalPAGEdges       68
+FunctionObjs        7
+GlobalObjs          7
+HeapObjs            0
+StackObjs           2
+FIObjNum            0
+FSObjNum            16
+VarStructObj        0
+VarArrayObj         0
+ConstStructObj      0
+ConstArrayObj       0
+NonPtrObj           11
+AddrsNum            16
+LoadsNum            8
+StoresNum           7
+CopysNum            2
+GepsNum             0
+CallsNum            0
+ReturnsNum          0
+IndCallSites        0
+LocalVarInRecur     0
+BitCastNumber       0
+BBWith2Succ         0
+BBWith3Succ         0
+-------------------------------------------------------
+TotalTime           0
+SCCDetectTime       0
+SCCMergeTime        0
+LoadStoreTime       0
+CopyGepTime         0
+UpdateCGTime        0
+AvgPtsSetSize       0.405063
+AvgTopLvlPtsSize    0.961538
+CollapseTime        0
+TotalPointers       52
+TotalObjects        18
+TotalPAGEdges       33
+AddrsNum            16
+LoadsNum            8
+StoresNum           7
+CopysNum            18
+GepsNum             0
+AddrProcessed       16
+LoadProcessed       8
+StoreProcessed      7
+CopyProcessed       35
+GepProcessed        0
+Pointers            52
+DYFieldPtrs         0
+MemObjects          18
+DYFieldObjs         0
+MaxPtsSetSize       2
+Iterations          3
+IndCallSites        0
+IndEdgeSolved       0
+NumOfSCCDetect      3
+TotalCycleNum       0
+TotalPWCCycleNum    0
+NodesInCycles       0
+MaxNodesInSCC       0
+NullPointer         0
+CGNodeNum           79
+TotalLoadInst       9
+TotalStoreInst      4
+PointsToConstPtr    0
+PointsToBlkPtr      0
+#######################################################
+
+NodeID 4 		PointsTo: { 6 }
+
+
+NodeID 7 		PointsTo: { 8 }
+
+
+NodeID 9 		PointsTo: { 10 }
+
+
+NodeID 11 		PointsTo: { 12 }
+
+
+NodeID 13 		PointsTo: { 14 }
+
+
+NodeID 15 		PointsTo: { 16 }
+
+
+NodeID 17 		PointsTo: { 18 }
+
+
+NodeID 19 		PointsTo: { 20 }
+
+
+NodeID 22 		PointsTo: { 10 }
+
+
+NodeID 23 		PointsTo: { 6 }
+
+
+NodeID 25 		PointsTo: { 6 }
+
+
+NodeID 26 		PointsTo: { 10 14 }
+
+
+NodeID 29 		PointsTo: { 30 }
+
+
+NodeID 31 		PointsTo: {empty}
+
+
+NodeID 32 		PointsTo: {empty}
+
+
+NodeID 33 		PointsTo: { 34 }
+
+
+NodeID 37 		PointsTo: { 10 }
+
+
+NodeID 38 		PointsTo: { 6 }
+
+
+NodeID 41 		PointsTo: { 42 }
+
+
+NodeID 44 		PointsTo: { 45 }
+
+
+NodeID 54 		PointsTo: { 55 }
+
+
+NodeID 57 		PointsTo: { 58 }
+
+
+NodeID 63 		PointsTo: { 64 }
+
+
+NodeID 65 		PointsTo: { 14 }
+
+
+NodeID 66 		PointsTo: { 6 }
+
+
+NodeID 73 		PointsTo: { 74 }
+
+
+****Thread Call Graph Statistics****
+################ (program : )###############
+-------------------------------------------------------
+NumOfForkSite       2
+NumOfForkEdge       2
+NumOfJoinEdge       0
+NumOfJoinSite       1
+NumOfIndForkSite    0
+NumOfIndForkEdge    0
+NumOfIndCallEdge    0
+#######################################################
+
+****Thread Creation Tree Statistics****
+################ (program : )###############
+-------------------------------------------------------
+BuildingTCTTime     0
+NumOfCandidateFun   3
+NumOfTotalFun       7
+NumOfTCTNode        3
+NumOfTCTEdge        2
+MaxCxtSize          2
+#######################################################
+
+****Memory SSA Statistics****
+################ (program : )###############
+-------------------------------------------------------
+TotalMSSATime       0.001
+GenRegionTime       0
+GenMUCHITime        0.001
+InsertPHITime       0
+SSARenameTime       0
+AverageRegSize      1
+MaxRegSize          1
+MemRegions          5
+FunEntryChi         13
+FunRetMu            13
+CSChiNode           4
+CSMuNode            8
+LoadMuNode          8
+StoreChiNode        4
+MSSAPhi             0
+FunHasEntryChi      3
+FunHasRetMu         3
+CSHasChi            2
+CSHasMu             2
+LoadHasMu           8
+StoreHasChi         4
+BBHasMSSAPhi        0
+#######################################################
+
+****SVFG Statistics****
+################ (program : )###############
+-------------------------------------------------------
+TotalTime           0.001
+ConnDirEdgeTime     0
+ConnIndEdgeTime     0
+TLNodeTime          0
+ATNodeTime          0
+OptTime             0
+AvgWeight           1
+MSSAPhi             0
+TotalNode           60
+FormalIn            13
+FormalOut           8
+FormalParam         0
+FormalRet           0
+ActualIn            0
+ActualOut           4
+ActualParam         0
+ActualRet           0
+Addr                16
+Copy                2
+Gep                 0
+Store               7
+Load                8
+PHI                 1
+TotalEdge           55
+DirectEdge          25
+IndirectEdge        30
+IndCallEdge         8
+IndRetEdge          4
+DirectCallEdge      1
+DirectRetEdge       0
+AvgInDegree         0
+AvgOutDegree        0
+MaxInDegree         4
+MaxOutDegree        5
+AvgIndInDeg         1
+AvgIndOutDeg        1
+MaxIndInDeg         2
+MaxIndOutDeg        3
+#######################################################
+
+****CallGraph SCC Stat****
+################ (program : )###############
+-------------------------------------------------------
+TotalNode           7
+TotalEdge           5
+TotalCycle          0
+NodeInCycle         0
+MaxNodeInCycle      0
+CalRetPairInCycle   0
+#######################################################
+
+****Flow-Sensitive Pointer Analysis Statistics****
+################ (program : )###############
+TotalPointers       52
+TotalObjects        18
+TotalFieldObjects   0
+MaxStructSize       0
+TotalPAGEdges       68
+FunctionObjs        7
+GlobalObjs          7
+HeapObjs            0
+StackObjs           2
+FIObjNum            0
+FSObjNum            16
+VarStructObj        0
+VarArrayObj         0
+ConstStructObj      0
+ConstArrayObj       0
+NonPtrObj           11
+AddrsNum            16
+LoadsNum            8
+StoresNum           7
+CopysNum            2
+GepsNum             0
+CallsNum            0
+ReturnsNum          0
+IndCallSites        0
+LocalVarInRecur     0
+BitCastNumber       0
+BBWith2Succ         0
+BBWith3Succ         0
+-------------------------------------------------------
+TotalTime           0
+SolveTime           0
+SCCTime             0
+ProcessTime         0
+PropagationTime     0
+DirectPropaTime     0
+IndirectPropaTime   0
+Strong/WeakUpdTime  0
+AddrTime            0
+CopyGepTime         0
+LoadTime            0
+StoreTime           0
+UpdateCGTime        0
+AvgPtsSize          1.07273
+AvgTopLvlPtsSize    0.961538
+AvgAddrTakenVarPts  1.14286
+AvgINPtsSize        1.18182
+AvgOUTPtsSize       1.14286
+AverageSCCSize      4
+TotalPointers       52
+TotalObjects        18
+StoresNum           7
+CopysNum            2
+Pointers            52
+DYFieldPtrs         0
+MemObjects          18
+DYFieldObjs         0
+Iterations          1
+IndEdgeSolved       0
+NullPointer         0
+PointsToConstPtr    0
+PointsToBlkPtr      0
+StrongUpdates       7
+SNodesHaveIN        22
+SNodesHaveOUT       7
+FI_SNodesHaveIN     8
+FI_SNodesHaveOUT    0
+FO_SNodesHaveIN     0
+FO_SNodesHaveOUT    0
+AI_SNodesHaveIN     0
+AI_SNodesHaveOUT    0
+AO_SNodesHaveIN     4
+AO_SNodesHaveOUT    0
+LD_SNodesHaveIN     8
+LD_SNodesHaveOUT    0
+ST_SNodesHaveIN     2
+ST_SNodesHaveOUT    7
+PHI_SNodesHaveIN    0
+PHI_SNodesHaveOUT   0
+VarHaveIN           22
+VarHaveOUT          7
+VarHaveIN_FI        8
+VarHaveOUT_FI       0
+VarHaveIN_FO        0
+VarHaveOUT_FO       0
+VarHaveIN_AI        0
+VarHaveOUT_AI       0
+VarHaveIN_AO        4
+VarHaveOUT_AO       0
+VarHaveIN_LD        8
+VarHaveOUT_LD       0
+VarHaveIN_ST        2
+VarHaveOUT_ST       7
+VarHaveIN_PHI       0
+VarHaveOUT_PHI      0
+MaxPtsSize          2
+MaxTopLvlPtsSize    2
+MaxINPtsSize        2
+MaxOUTPtsSize       2
+NumOfAddrTakenVar   7
+MaxAddrTakenVarPts  2
+ProcessedAddr       16
+ProcessedCopy       4
+ProcessedGep        0
+ProcessedLoad       16
+ProcessedStore      14
+ProcessedPhi        2
+ProcessedAParam     0
+ProcessedFRet       0
+ProcessedMSSANode   37
+NumOfNodesInSCC     4
+MaxSCCSize          4
+NumOfSCC            1
+#######################################################
+
+NodeID 4 		PointsTo: { 6 }
+
+
+NodeID 7 		PointsTo: { 8 }
+
+
+NodeID 9 		PointsTo: { 10 }
+
+
+NodeID 11 		PointsTo: { 12 }
+
+
+NodeID 13 		PointsTo: { 14 }
+
+
+NodeID 15 		PointsTo: { 16 }
+
+
+NodeID 17 		PointsTo: { 18 }
+
+
+NodeID 19 		PointsTo: { 20 }
+
+
+NodeID 22 		PointsTo: { 10 }
+
+
+NodeID 23 		PointsTo: { 6 }
+
+
+NodeID 25 		PointsTo: { 6 }
+
+
+NodeID 26 		PointsTo: { 10 14 }
+
+
+NodeID 29 		PointsTo: { 30 }
+
+
+NodeID 31 		PointsTo: {empty}
+
+
+NodeID 32 		PointsTo: {empty}
+
+
+NodeID 33 		PointsTo: { 34 }
+
+
+NodeID 37 		PointsTo: { 10 }
+
+
+NodeID 38 		PointsTo: { 6 }
+
+
+NodeID 41 		PointsTo: { 42 }
+
+
+NodeID 44 		PointsTo: { 45 }
+
+
+NodeID 54 		PointsTo: { 55 }
+
+
+NodeID 57 		PointsTo: { 58 }
+
+
+NodeID 63 		PointsTo: { 64 }
+
+
+NodeID 65 		PointsTo: { 14 }
+
+
+NodeID 66 		PointsTo: { 6 }
+
+
+NodeID 73 		PointsTo: { 74 }
+
+
+****MHP Stmt Pairs Statistics****
+################ (program : )###############
+-------------------------------------------------------
+InterlevAnaTime     0.001
+LockAnaTime         0
+InterlevQueryTime   0
+LockQueryTime       0
+MFSPTATime          0.003
+TotalMHPQueries     38
+NumOfMHPPairs       10
+TotalLockQueries    2
+NumOfLockedPairs    0
+NumOfCxtLocks       0
+NumOfNewSVFGEdges   3
+NumOfRemovedEdges   0
+NumOfRemovedPTS     0
+#######################################################
+MemUsage(KB) 	9880

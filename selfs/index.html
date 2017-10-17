@@ -1,0 +1,268 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+                      "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>SELFS</title>
+  <link rel="stylesheet" type="text/css" href="selfs.css">
+</head>
+<body>
+
+<div class="rel_title">
+SELFS: Region-Based Selective Flow-Sensitive Pointer Analysis
+</div>
+
+<div class="rel_container">
+
+<div class="rel_section">Authors</div>
+
+<div class="rel_boxtext">
+<table>
+<tr>
+  <a href="http://www.cse.unsw.edu.au/~ysui"><font size="3pt">Yulei Sui</font></a> &nbsp&nbsp
+  <a href="http://www.cse.unsw.edu.au/~yes"><font size="3pt">Sen Ye </font></a> &nbsp&nbsp
+  <a href="http://www.cse.unsw.edu.au/~jingling"><font size="3">Jingling Xue</font></a> &nbsp&nbsp
+</tr>
+<br>
+<tr>
+<i><font size="2.8pt"><a href="http://www.cse.unsw.edu.au">School of Computer Science and Engineering  </a>, <a href="http://www.unsw.edu.au">
+The University of New South Wales </a></font></i>
+</tr>
+</table>
+
+</div>
+
+
+<div class="rel_section">Description</div>
+<div class="rel_boxtext">
+
+<p><i>SELFS</i> is a region-based <u>SEL</u>ective <u>F</u>low-<u>S</u>ensitive approach to inter-procedural pointer analysis for C
+that operates on the regions partitioned from a program.
+ Flow-sensitivity is maintained between the regions but not inside, 
+making traditional flow-insensitive and flow-sensitive as well as
+ recent sparse flow-sensitive analyses all special instances of
+ our <i>SELFS</i> framework. 
+</p>
+<p>
+<i>SELFS</i> separates region partitioning as an independent concern from the 
+rest of the pointer analysis. It facilitates
+the development of flow-sensitive variations with 
+desired efficiency and precision tradeoffs by reusing existing pointer
+ resolution algorithms.
+</p>
+</div>
+
+
+<div class="rel_section">Paper and Artifact</div>
+
+<div class="rel_boxtext">
+<p><a href="sas2014.pdf">Region-based Selective Flow-Sensitive Pointer Analysis</a>  <I>21th International Static Analysis Symposium </I> (<a href="http://cs.uni-muenster.de/sev/sas14/">SAS' 14</a>)</p>
+
+<p><a href="selfs.zip">Virtual Image of SELFS Framework: selfs.zip</a>(2.2GB)</p>
+
+
+<p>The artifact, which is a virtual machine image, contains <i>SELFS</i> implementation on top of LLVM compiler (version 3.3) as well as SPEC2000/2006 benchmarks and several micro-benchmarks.
+</p>
+
+<p> 
+The OS in the virtual machine image is Ubuntu 12.04 (an account is created with both its name and password "sas14").
+We recommend you to allocate at least 16GB memory
+to the virtual machine. A <a href="https://www.virtualbox.org/">VirtualBox</a> with version 4.1.12 or newer is required to run the image.</p>
+</div>
+
+
+
+
+
+<div class="rel_section">Quick Guidelines</div>
+
+<div class="rel_boxtext">
+
+<p>The SELFS project is located in the "pta" directory under
+the HOME directory of the user named "sas14". To run the tests
+as we did for in our paper, open a terminal and do:</p>
+
+<table id="sas_dir" cellpadding=3px cellspacing=4px>
+<tr>
+  <td>cd /home/sas14/pta/</td>
+  <td># Go to the SELFS project directory</td>
+</tr>
+<tr>
+  <td>. ./setup.sh</td>
+  <td># Set up environment variables</td>
+</tr>
+<tr>
+  <td>cd sas_exp</td>
+  <td># Go to the test directory</td>
+</tr>
+</table>
+
+<p>To reproduce our results in Figures 6 -- 8 for both SFS and SELFS
+across the 14 benchmarks, execute the script "run_all.sh":</p>
+<table id="run_all", cellpadding=3px cellspacing=4px>
+<tr><td>./run_all.sh</td></tr>
+</table>
+
+
+<p>Please note all the results related to analysis times in our paper
+are obtained on a 2.00GHz Intel Xeon 32-core CPU running Ubuntu
+Linux with 64GB memory, as described in Section 4. Obtaining all
+results this way takes about 40 mins on this platform.</p>
+
+<p>You can also analyze a single program, say, "ammp.orig", as follows:</p>
+
+<table id="run_all", cellpadding=3px cellspacing=4px>
+<tr><td>./run_single.sh ammp.orig</td></tr>
+</table>
+
+
+<p>This will produce the results in Figures 6 -- 8 for "ammp.orig" under
+both the analyses evaluated, SFS and SELFS.</p>
+
+<p>If you want to try SFS or SELFS separately for an individual program,
+say, "ammp.orig", the commends to use are:</p>
+
+<table id="run_all", cellpadding=3px cellspacing=4px>
+<tr>
+  <td>./run_single.sh SFS ammp.orig</td>
+  <td># SFS on ammp.orig</td>
+<tr>
+  <td>or</td>
+</tr>
+<tr>
+  <td>./run_single.sh SELFS ammp.orig</td>
+  <td># SELFS on ammp.orig</td>
+</tr>
+</table>
+
+</div>
+
+<div class="rel_section">Benchmarks </div>
+
+<div class="rel_boxtext">
+<p>The benchmarks used in our paper are stored under "sas_exp" directory.
+There are 14 programs from both SPEC2000 and SPEC2006:</p>
+
+<table id="spec", cellpadding=3px cellspacing=4px>
+<tr><td>SPEC2000: ammp, crafty, gcc, mesa, parser, perlbmk, twolf, vortex, vpr.</td></tr>
+<tr><td>SPEC2006: h264ref, hmmer, milc, sjeng, sphinx3.</td></tr>
+</table>
+
+<p>We have also provided a few other benchmarks:</p>
+
+<table id="spec_not_used", cellpadding=3px cellspacing=4px>
+<tr><td>
+    SPEC2000: art, bzip2, equake, gzip, mcf
+</td></tr>
+<tr><td>
+    SPEC2006: lbm, libquantum
+</td></tr>
+</table>
+
+<p>All these programs have been compiled into the LLVM bitcode file
+format by "clang" and linked together by "llvm-link".</p>
+
+<p>Some small C programs have been provided in the directory
+"/home/sas14/pta/sas_exp/micro_benchmarks/", you can compile them into
+LLVM bitcode files by</p>
+
+<table id="spec_not_used", cellpadding=3px cellspacing=4px>
+<tr>
+  <td>./compile_all.sh</td>
+  <td># Compile all C files</td>
+</tr>
+<tr>
+  <td>or</td>
+</tr>
+<tr>
+  <td>./compile_single.sh one_program.c</td>
+  <td># Compile one C file</td>
+</tr>
+</table>
+
+<p>For each bitcode file (.opt file) generated, you can
+try to analyze it by using the script "run_single.sh" as before.</p>
+
+<p>To run your own C programs, please compile them with "compile_single.sh"
+as mentioned above. Then you can run SFS/SELFS with the "run_single.sh"
+over the bitcode files generated. For large programs with multiple
+bitcode files, please refer to</p>
+<table id="llvm_link", cellpadding=3px cellspacing=4px>
+<tr><td><a href="http://llvm.org/docs/CommandGuide/llvm-link.html">http://llvm.org/docs/CommandGuide/llvm-link.html</a></td></tr>
+</table>
+<p>for details on how to link several bitcode files into one.</p>
+
+</div>
+
+
+<div class="rel_section">Contacts </div>
+
+<div class="rel_boxtext">
+Feel free to contact : <i>ysui AT cse.unsw.edu.au</i> if you have any question.
+</div>
+</div>
+
+</div> <!-- rel_container -->
+
+<hr>
+<p style="font-size:smaller">
+This web site is hosted by the
+<a href="http://www.cse.unsw.edu.au/~corg">Programming Languages and Compiler Group</a>
+at the
+<a href="http://www.uiuc.edu">University of New South Wales</a>.
+</p>
+
+
+</body>
+</html>
+
+<!--div class="rel_section">Project Layout</div>
+
+<div class="rel_boxtext">
+<p>The SELFS project is located under the "pta" directory, which resides
+under the HOME directory of "sas14". The directory structure is:</p>
+
+<table id="layout", cellpadding=3px cellspacing=4px>
+<tr>
+  <td>pta</td>
+  <td># Top directory for SELFS</td>
+</tr>
+<tr>
+  <td>|-Release+Asserts</td>
+  <td># The SELFS executables</td>
+</tr>
+<tr>
+  <td>|&nbsp&nbsp|-bin</td>
+</tr>
+<tr>
+  <td>|&nbsp&nbsp|&nbsp&nbsp|-wpa</td>
+  <td># Whole-program analysis engine</td>
+</tr>
+<tr>
+  <td>|&nbsp&nbsp|-lib</td>
+</tr>
+<tr>
+  <td>|-sas_exp</td>
+</tr>
+<tr>
+  <td>|&nbsp&nbsp|-*.orig</td>
+  <td># Benchmarks compiled into LLVM bit-code</td>
+</tr>
+<tr>
+  <td>|&nbsp&nbsp|-*.sh, *.pl</td>
+  <td># Scripts for running tests</td>
+</tr>
+<tr>
+  <td>|&nbsp&nbsp|-micro_benchmarks</td>
+  <td># Small C programs</td>
+</tr>
+<tr>
+  <td>|-setup.sh</td>
+  <td># Script for setting up environment variables</td>
+</tr>
+</table>
+
+</div-->
+
+

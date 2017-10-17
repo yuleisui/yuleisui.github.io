@@ -1,0 +1,8 @@
+for file in `find . -name "*.c"`
+do
+clang -c -emit-llvm -g $file -o $file.bc
+opt -mem2reg $file.bc -o $file.opt
+llvm-dis $file.opt
+echo analyzing $file
+mta -incdata=true -addTDEdge=2 $file.opt
+done

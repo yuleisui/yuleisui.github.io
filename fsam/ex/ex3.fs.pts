@@ -1,0 +1,68 @@
+#######################################################
+
+NodeID 4 		PointsTo: { 6 }
+
+
+NodeID 7 		PointsTo: { 8 }
+
+
+NodeID 9 		PointsTo: { 10 }
+
+
+NodeID 11 		PointsTo: { 12 }
+
+
+NodeID 13 		PointsTo: { 14 }
+
+
+NodeID 15 		PointsTo: { 16 }
+
+
+NodeID 17 		PointsTo: { 18 }
+
+
+NodeID 19 		PointsTo: { 20 }
+
+
+NodeID 21 		PointsTo: {empty}
+
+
+NodeID 22 		PointsTo: {empty}
+
+
+NodeID 24 		PointsTo: { 10 }
+
+
+NodeID 25 		PointsTo: { 6 }
+
+
+NodeID 28 		PointsTo: { 29 }
+
+
+NodeID 33 		PointsTo: { 34 }
+
+
+NodeID 36 		PointsTo: { 37 }
+
+
+NodeID 38 		PointsTo: { 14 }
+
+
+NodeID 39 		PointsTo: { 6 }
+
+
+NodeID 43 		PointsTo: { 44 }
+
+
+NodeID 47 		PointsTo: { 48 }
+
+
+NodeID 49 		PointsTo: { 6 }
+
+
+NodeID 50 		PointsTo: { 10 }
+
+
+NodeID 62 		PointsTo: { 63 }
+
+

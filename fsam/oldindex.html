@@ -1,0 +1,304 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- saved from url=(0038)http://www.cse.unsw.edu.au/~corg/fsam/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+  
+  <title>FSAM</title>
+  <link rel="stylesheet" type="text/css" href="./selfs.css">
+</head>
+<body>
+
+<div class="rel_title">
+FSAM: Sparse Flow-Sensitive Pointer Analysis for Multithreaded Programs
+</div>
+
+<div class="rel_container">
+
+<div class="rel_section">Authors</div>
+
+<div class="rel_boxtext">
+<a href="http://www.cse.unsw.edu.au/~ysui"><font size="3pt">Yulei Sui</font></a> &nbsp;&nbsp;
+  <a href="http://www.cse.unsw.edu.au/~pengd"><font size="3pt">Peng Di </font></a> &nbsp;&nbsp;
+  <a href="http://www.cse.unsw.edu.au/~jingling"><font size="3">Jingling Xue</font></a> &nbsp;&nbsp;
+<br><i><font size="2.8pt"><a href="http://www.cse.unsw.edu.au/">School of Computer Science and Engineering  </a>, <a href="http://www.unsw.edu.au/">
+UNSW Australia</a></font></i><table>
+<tbody><tr>
+  </tr>
+
+<tr>
+
+</tr>
+</tbody></table>
+
+</div>
+
+
+<div class="rel_section">1. Description</div>
+<div class="rel_boxtext">
+
+	<p><i>FSAM</i> is a new sparse <u>F</u>low-<u>S</u>ensitive pointer <u>A</u>nalysis for <u>M</u>ultithreaded C programs (with Pthreads) conducted through a series of thread interference analysis phases.
+</p>
+</div>
+
+
+<div class="rel_section">2. Paper and Artifact</div>
+
+<div class="rel_boxtext">
+<p><a href="">Sparse Flow-Sensitive Pointer Analysis for Multithreaded Programs</a>  <i> 2016 International Symposium on Code Generation and Optimization </i> (<a href="http://cgo.org/cgo2016/">CGO' 16</a>)</p>
+
+<p><a href="http://corg-pluto.cse.unsw.edu.au/fsam/FSAM.ova">Virtual Image of FSAM Framework: FSAM.ova</a> (4.5GB)</p>
+
+<p> <i> FSAM </i> is built on top of <a href="http://www.cse.unsw.edu.au/~corg/fsam/unsw-corg.github.io/SVF"> SVF</a>, a static value-flow analysis framework operating on LLVM-IR. <i> FSAM </i> will be integrated into SVF based on the latest release of LLVM (version 3.7.0). The core source code files
+reside under "include/MTA" and "lib/MTA" and can be downloaded <a href="http://corg-pluto.cse.unsw.edu.au/fsam/pta-cgo.tar.bz2"> here </a>.
+
+</p><p>To help users reproduce the data in the paper, 
+we have also provided a virtual machine image, which
+contains the source code of  <i>FSAM</i>, together with
+scripts and benchmarks used in our experimental evaluation,
+as described in the paper.
+</p>
+
+<p> 
+The OS in the virtual machine image is Ubuntu 12.04.
+A user account has been created with both its username and password as "pta". To run <i>FSAM</i>, you are advised
+to allocate at least 16GB memory
+to the virtual machine. The traditional non-sparse analysis, denoted NonSparse in the paper, 
+is slow and requires large memory, as a lower memory budget
+may force OS to kill the running process when it is
+used to analyse
+some large programs, e.g., bodytrack, x264. Finally, a <a href="https://www.virtualbox.org/">VirtualBox</a> with version 4.1.12 or newer is required to run the image.</p>
+</div>
+
+
+
+
+
+<div class="rel_section">3. Quick Guidelines</div>
+
+<div class="rel_boxtext">
+
+<p>The FSAM project is located in the "pta" directory under
+the HOME directory of the user named "pta". To run the 
+tests
+as we did in our evaluation, open a terminal and issue
+the following commands:</p>
+
+<table id="sas_dir" cellpadding="3px" cellspacing="4px">
+<tbody><tr>
+  <td>cd /home/pta/pta/</td>
+  <td># Go to the FSAM project directory</td>
+</tr>
+<tr>
+  <td>. ./setup.sh</td>
+  <td># Set up environment variables <b> (note that there is a white space between the two dots)</b></td>
+</tr>
+<tr>
+  <td>cd cgo_exp</td>
+  <td># Go to the test directory</td>
+</tr>
+</tbody></table>
+
+<p>To reproduce our results for the 10 benchmarks evaluated, please do the following:</p>
+<p>Collect the results of only FSAM in Figure 12:</p>
+<table id="f12" ,="" cellpadding="3px" cellspacing="4px">
+<tbody><tr><td>./table2.sh</td>
+  <td># Run FSAM analysis only</td> </tr>
+<tr><td>./collect_table2.sh mta_res</td>
+  <td># Collect and print out the results to terminal</td> </tr>
+</tbody></table>
+<p>Collect the results of both FSAM and Non-Sparse analyses in Figure 12:</p>
+<table id="f12" ,="" cellpadding="3px" cellspacing="4px">
+<tbody><tr><td>./table2.sh both</td>
+  <td># Run FSAM and Non-sparse analyses</td> </tr>
+<tr><td>./collect_table2.sh mta_res</td>
+  <td># Collect and print out the results to terminal</td> </tr>
+</tbody></table>
+<p>Collect the results in Table 2:</p>
+<table id="f12" ,="" cellpadding="3px" cellspacing="4px">
+<tbody><tr><td>./figure12.sh</td>
+  <td># Run FSAM with each of its phases disabled</td> </tr>
+<tr><td>./collect_figure12.sh mta_res</td>
+  <td># Collect and print out the results to terminal</td> </tr>
+</tbody></table>
+
+
+
+<p>Please note that all the results related to the
+analysis times and memory usage reported in our paper
+were obtained on a 2.70GHz Intel Xeon 4-core CPU running Ubuntu
+Linux with 64GB memory, as described in Section 4.1. 
+On this platform, obtaining the results
+for FSAM may take about 20 mins and obtaining the
+results for NonSparse may take more than five hours.
+
+</p><p> Initially, the users are advised to analyse
+a few benchmarks using the default configuration file 'list.stat'. To analyse all the benchmarks, please use another
+configuration file containing all the benchmarks: </p>
+<table id="f12" ,="" cellpadding="3px" cellspacing="4px">
+<tbody><tr><td>cp list.stat.full list.stat</td></tr>
+</tbody></table>
+
+<p>For comparison purposes, the experimental data used in  the paper are provided under "pta/cgo-exp/mta_res_cgo/". 
+</p>
+<p>To reproduce the results shown in Table 2 and Figure 12
+with the provided data, issue the following commands:</p>
+<table id="f12" ,="" cellpadding="3px" cellspacing="4px">
+<tbody><tr><td>./collect_table2.sh mta_res_cgo</td></tr>
+<tr><td>./collect_figure12.sh mta_res_cgo</td></tr>
+</tbody></table>
+
+
+<p>You can also analyse a single program, say, "word_count.orig", as follows:</p>
+
+<table id="run_all" ,="" cellpadding="3px" cellspacing="4px">
+<tbody><tr><td>./run_single.sh word_count.orig</td></tr>
+</tbody></table>
+
+<p> If you would like to know more about how to use our pointer analysis framework or would like 
+to add your own extensions, please refer to this <a href="https://github.com/unsw-corg/SVF/wiki">wiki</a> and this <a href="http://www.cse.unsw.edu.au/~corg/svf/doxygen/">doxygen manual</a>. </p>
+
+
+</div>
+
+<div class="rel_section">4. Benchmarks </div>
+
+<div class="rel_boxtext">
+<p>The benchmarks used in our paper are stored under "cgo_exp" directory.
+There are 10 programs selected from Phoenix-3.0, PARSEC-3.0 and open-source applications:</p>
+
+<table id="spec" ,="" cellpadding="3px" cellspacing="4px">
+<tbody><tr><td> word_count, kmeans, radiosity, ferret, bodytrack, raytrace, x264, automount, mt_daapd and httpd-server</td></tr>
+</tbody></table>
+
+<p>The source code of each program is compiled into bit code files using clang and then merged together using <a href="http://llvm.org/docs/GoldPlugin.html">LLVM Gold Plugin</a> at link time stage (LTO) to produce a whole-program bc file. </p>
+
+<p>We have also provided a micro-benchmark suite <a href="https://github.com/unsw-corg/PTABen">PTABen</a> to validate the correctness of our pointer analysis algorithms for both single- and multi-threaded C programs. Please refer this <a href="https://github.com/unsw-corg/PTABen">link</a> to see the source code hosted on GitHub. The layout of the test suite is as follows:</p>
+
+<table id="spec_not_used" ,="" cellpadding="3px" cellspacing="4px">
+<tbody><tr><td>
+   fi_tests : flow-insensitive tests
+</td></tr>
+<tr><td>
+    fs_tests : flow-sensitive tests
+</td></tr>
+<tr><td>
+   cs_tests :  context-sensitive tests
+</td></tr>
+<tr><td>
+   path_tests :   path-sensitive tests
+</td></tr>
+<tr><td>
+         complex_tests  :   	complex test cases simplified from real programs  
+</td></tr>
+<tr><td>
+	    mta	: pthread tests
+</td></tr>
+<tr><td>
+	   scripts : scripts to run the tests
+</td></tr>
+</tbody></table>
+
+<p>Some micro-benchmarks can be found under
+"/home/pta/pta/cgo_exp/micro_benchmarks/". You can compile them into
+LLVM bitcode files by running:</p >
+
+<table id="spec_not_used" ,="" cellpadding="3px" cellspacing="4px">
+<tbody><tr>
+  <td>clang -c -emit-llvm -g example.c -o example.bc</td> </tr>
+<tr>
+  <td> opt -mem2reg example.bc -o example.opt </td>
+  <td> # optional </td>
+</tr>
+</tbody></table>
+
+<p>For each bitcode file (.opt file) generated, you can
+try to analyse it by using the script "run_single.sh" as before. For large programs with multiple
+bitcode files, please refer to</p>
+<table id="llvm_link" ,="" cellpadding="3px" cellspacing="4px">
+<tbody><tr><td><a href="https://github.com/unsw-corg/SVF/wiki/Install-LLVM-Gold-Plugin-on-Ubuntu">Install and Use LLVM Gold Plugin in SVF </a></td></tr>
+</tbody></table>
+<p>for details on how to link several bitcode files into one.</p>
+
+</div>
+
+
+<div class="rel_section">5. Contacts </div>
+
+<div class="rel_boxtext">
+Feel free to contact : <i>corg AT cse.unsw.edu.au</i> if you have any question.
+</div>
+</div>
+
+ <!-- rel_container -->
+
+<hr>
+<p style="font-size:smaller">
+This web site is hosted by the
+<a href="http://www.cse.unsw.edu.au/~corg">Programming Languages and Compiler Group</a>
+at the
+<a href="http://www.uiuc.edu/">University of New South Wales</a>.
+</p>
+
+
+
+
+
+<!--div class="rel_section">Project Layout</div>
+
+<div class="rel_boxtext">
+<p>The SELFS project is located under the "pta" directory, which resides
+under the HOME directory of "sas14". The directory structure is:</p>
+
+<table id="layout", cellpadding=3px cellspacing=4px>
+<tr>
+  <td>pta</td>
+  <td># Top directory for SELFS</td>
+</tr>
+<tr>
+  <td>|-Release+Asserts</td>
+  <td># The SELFS executables</td>
+</tr>
+<tr>
+  <td>|&nbsp&nbsp|-bin</td>
+</tr>
+<tr>
+  <td>|&nbsp&nbsp|&nbsp&nbsp|-wpa</td>
+  <td># Whole-program analysis engine</td>
+</tr>
+<tr>
+  <td>|&nbsp&nbsp|-lib</td>
+</tr>
+<tr>
+  <td>|-sas_exp</td>
+</tr>
+<tr>
+  <td>|&nbsp&nbsp|-*.orig</td>
+  <td># Benchmarks compiled into LLVM bit-code</td>
+</tr>
+<tr>
+  <td>|&nbsp&nbsp|-*.sh, *.pl</td>
+  <td># Scripts for running tests</td>
+</tr>
+<tr>
+  <td>|&nbsp&nbsp|-micro_benchmarks</td>
+  <td># Small C programs</td>
+</tr>
+<tr>
+  <td>|-setup.sh</td>
+  <td># Script for setting up environment variables</td>
+</tr>
+</table>
+
+</div-->
+
+
+<script async="" src="./FSAM_files/analytics.js"></script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-69906944-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body></html>

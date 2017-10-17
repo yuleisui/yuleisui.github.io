@@ -1,0 +1,2 @@
+mta -print-pts -incdata=true -addTDEdge=2 $1 
+
