@@ -19,7 +19,7 @@ We have 1-2 PhD positions openining for outstanding candidates for 3.5 years. Th
 
 (1) Machine-learning based software security analysis,
 (2) Fundamental static program analysis to improve software security and reliability,
-(3) Big data-driven program analysis for mobile malware analysis,
+(3) Data-driven program analysis for mobile malware analysis,
 (4) Program analysis through information retrieval,
 (5) Software analytics, mining software repository 
 
