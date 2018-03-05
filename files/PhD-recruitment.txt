@@ -2,7 +2,7 @@
 
 有意向的硕士或者本科同学请联系Dr. Yulei Sui (https://yuleisui.github.io)。Email: yulei.sui@uts.edu.au. 
 
-学校介绍:澳大利亚悉尼科技大学(UTS)座落于风景优美的悉尼市中心，毗邻darling harbour，中国城，悉尼歌剧院。UTS是世界知名研究学府，计算机和信息技术是整个学校的重点发展方向。 在QS 2017全球50个最年轻大学（建校50年内）中 UTS排名全澳洲第一。QS 2017计算机全球排名top 100. AWRU 2017全球计算机排名top 50。
+学校介绍:澳大利亚悉尼科技大学(UTS)座落于风景优美的悉尼市中心，毗邻darling harbour，中国城，悉尼歌剧院。UTS是世界知名研究学府，计算机和信息技术是整个学校的重点发展方向。 在QS 2017全球50个最年轻大学（建校50年内）中 UTS排名全澳洲第一。QS 2017计算机全球排名top 100. AWRU 2017全球计算机排名top 50。在最近的2018年Times计算机排名,UTS 排名澳洲第二，全球83位。
 
 同时非常欢迎CSC的博士生或者访问学生，或者已经在中国开始博士阶段的学生申请我们的双学位项目毕业时可同时获得两边学校的学位。
 1）如果获得中国CSC名额，UTS会在此基础上每年额外top 5000澳币的奖学金
@@ -13,7 +13,9 @@
 
 Software Engineering and Artificial Intelligence PhD positions available at University of Technology Sydney (UTS), Australia
 
-UTS is a world-leading university of technology (ranked 1st in Australia and 8th globally in the QS Top 50 under 50 index of newer universities and is five star rated in QS). UTS Computer Science is ranked among the top 100 universities by QS 2018 globally (https://www.topuniversities.com/university-rankings/university-subject-rankings/2017/computer-science-information-systems), and No. 48 world-wide based on Shanghai JiaoTong University’s academic rankings in 2017. The Centre for Artificial Intelligence (CAI), as one of the priority research Centres of UTS, is a world-leading research hub for artificial intelligence.
+UTS is a world-leading university of technology (ranked 1st in Australia and 8th globally in the QS Top 50 under 50 index of newer universities and is five star rated in QS). UTS Computer Science is ranked among the top 100 universities by QS 2018 globally (https://www.topuniversities.com/university-rankings/university-subject-rankings/2017/computer-science-information-systems), and No. 48 world-wide based on Shanghai JiaoTong University’s academic rankings in 2017. 
+In 2018 Times World University Rankings of computer science, UTS is ranked 2nd in Australia and 83 globally
+The Centre for Artificial Intelligence (CAI), as one of the priority research Centres of UTS, is a world-leading research hub for artificial intelligence.
 
 We have 1-2 PhD positions openining for outstanding candidates for 3.5 years. The ideal candidate will be based in CAI to conduct her/his research in one of the following topics:
 
