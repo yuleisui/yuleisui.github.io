@@ -4,12 +4,6 @@
 
 学校介绍:澳大利亚悉尼科技大学(UTS)座落于风景优美的悉尼市中心，毗邻darling harbour，中国城，悉尼歌剧院。UTS是世界知名研究学府，计算机和信息技术是整个学校的重点发展方向。 在QS 2017全球50个最年轻大学（建校50年内）中 UTS排名全澳洲第一。QS 2017计算机全球排名top 100. AWRU 2017全球计算机排名top 50。在最近的2018年Times计算机排名,UTS 排名澳洲第二，全球83位(https://www.timeshighereducation.com/world-university-rankings/2018/subject-ranking/computer-science#!/page/0/length/25/sort_by/rank/sort_order/asc/cols/stats)。
 
-同时非常欢迎CSC的博士生或者访问学生，或者已经在中国开始博士阶段的学生申请我们的双学位项目毕业时可同时获得两边学校的学位。
-1）如果获得中国CSC名额，UTS会在此基础上每年额外top 5000澳币的奖学金
-2）如果在中国已经开始博士生阶段，也可申请UTS的双学位项目，同时获得两边的学位。我们此项目的合作院校包括北京理工，华中科大，中山大学，上海交大，上海大学，西工大，北京交大，西南交大等。
-
-欢迎加入我们的研究团队！在博士生的第1-2年我会投入较多的精力对学生重点强化辅导，包括理论知识和实际的编程能力。在博士3-4年会给博士生较多发挥的空间和自由度。根据进度会推荐博士生去其他学校及企业访问和交流。
-
 
 Software Engineering and Artificial Intelligence PhD positions available at University of Technology Sydney (UTS), Australia
 
