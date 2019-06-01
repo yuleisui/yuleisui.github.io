@@ -22,7 +22,7 @@ We are looking for self-motivated candidates who meet the following requirements
 
 HOW TO APPLY
 
-Detailed application steps can be found at https://www.uts.edu.au/research-and-teaching/research-degrees/applying-uts/how-apply
+Detailed application steps can be found at https://yuleisui.github.io/files/PhD-application.txt
 
 To apply for the scholarships, you must complete an application consisting of:
 * A brief (2-4 pages) research proposal outlining your interest and suitability for the project;

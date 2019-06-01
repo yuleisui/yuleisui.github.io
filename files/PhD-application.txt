@@ -1,0 +1,17 @@
+PhD application steps: 
+1) through UTS website https://www.uts.edu.au/research-and-teaching/research-degrees/applying-uts/how-apply
+https://www.uts.edu.au/research-and-teaching/research-degrees/applying-uts/application-deadlines
+
+2) nominate me (Yulei Sui) as your principal supervisor. 
+
+3) select “Autumn Session 2020” (Semester 1 2020), "UTS city campus",  "course code C02029".
+
+4) upload your certified transcripts and relevant working experience. 
+
+5) tick/mention UTS scholarship and external scholarship application options(e.g., CSC and Data61).
+
+— scholarship general information: https://yuleisui.github.io/files/PhD-scholarship.txt
+— topics: https://yuleisui.github.io/files/thesis_topics.pdf
+— research proposal templates: https://yuleisui.github.io/files/rp/RP1.pdf    (change RP1 to RP2 ... RP5 to know RP topics)
+
+The above templates are for your reference, you can either build on top of it or propose your own topic along with my research interests.
