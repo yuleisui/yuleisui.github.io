@@ -12,6 +12,6 @@ https://www.uts.edu.au/research-and-teaching/research-degrees/applying-uts/appli
 
 — scholarship general information: https://yuleisui.github.io/files/PhD-scholarship.txt
 — topics: https://yuleisui.github.io/files/thesis_topics.pdf
-— research proposal templates: https://yuleisui.github.io/files/rp/RP1.pdf    (change RP1 to RP2 ... RP5 to know RP topics)
+— research proposal templates: https://yuleisui.github.io/files/rp/RP1.pdf    (change RP1 to RP2 ... RP6 to know RP topics)
 
 The above templates are for your reference, you can either build on top of it or propose your own topic along with my research interests.
