@@ -11,7 +11,7 @@ We have 1-2 PhD positions opening for outstanding candidates for 3.5 years. The 
 (5) Software analytics, mining software repository 
  
 
-The PhD student will be supervised under Dr. Yulei Sui (http://yuleisui.github.io/). The stipend of the scholarship is $27,082 per annum (tax exempt) for 3.5 years, plus travel funds for attending conferences. The qualified candidate will also receive a tuition-fee waiver. 
+The PhD student will be supervised under Dr. Yulei Sui (http://yuleisui.github.io/). The stipend of the scholarship is $28,597 per annum (tax exempt) for 3.5 years, plus travel funds for attending conferences. The qualified candidate will also receive a tuition-fee waiver. 
 
 We are looking for self-motivated candidates who meet the following requirements:
 * a bachelor's or master's degree in the area of Computer Science or related discipline with outstanding grades. 
