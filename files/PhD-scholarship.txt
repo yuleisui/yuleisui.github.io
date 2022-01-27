@@ -16,6 +16,7 @@ We are looking for self-motivated candidates who meet the following requirements
 * evidence of research ability - e.g. an honours thesis, a minor thesis, publication(s), and a well-developed preliminary research proposal, developed under the guidance of the supervisor;
 * strong programming skills in one of C/C++, Java and Python.
 * background in software engineering and programming skills
+* understanding of our open-source project (https://github.com/svf-tools/svf) is a plus.
 
 
 HOW TO APPLY
