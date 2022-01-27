@@ -4,11 +4,11 @@ https://www.uts.edu.au/research-and-teaching/research-degrees/applying-uts/appli
 
 2) nominate me (Yulei Sui) as your principal supervisor. 
 
-3) select “Autumn Session 2021” (Semester 1 2021), "UTS city campus",  "course code C02029, 33874" .
+3) select “Spring Session 2022” (Semester 2 2022), "UTS city campus",  "course code C02029, 33874" .
 
 4) upload your certified transcripts and relevant working experience. 
 
-5) tick/mention UTS scholarship and external scholarship application options(e.g., CSC and Data61).
+5) tick/mention UTS scholarship and external scholarship application options (e.g., CSC and Data61).
 
 — scholarship general information: https://yuleisui.github.io/files/PhD-scholarship.txt
 — topics: https://yuleisui.github.io/files/thesis_topics.pdf
