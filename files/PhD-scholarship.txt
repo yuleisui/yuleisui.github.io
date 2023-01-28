@@ -1,37 +1,38 @@
-Software engineering and machine learning PhD positions/scholarships available at University of Technology Sydney (UTS), Australia
+Software engineering and machine learning PhD positions/scholarships available at University of New South Wales (UNSW), Australia
 
-UTS is a world-leading university of technology (ranked 1st in Australia and 8th globally in the QS Top 50 under 50 index of newer universities and is five star rated in QS). UTS Computer Science is ranked 11th in the world and 1st in Australia according to the 2021 ARWU ranking. In the 2022 QS World University Rankings, UTS is ranked 133th in the world with a strong rising by leaping 144 places during the past 8 years. UTS is located near darling harbour and in the central business area of Sydney, which is Australia's oldest and largest city, as well as one of the most livable cities in the world.
+UNSW is one of the founding members of Group of Eight and a top 50 world-leading university. In the 2022 QS World University Rankings, UNSW is ranked 44th in the world. UNSW Computer Science and Engineering is ranked 1st in Australia based on Times Subject Ranking 2021. UNSW is also ranked 1st in Australia for its Engineering & Technology Faculty according to ARWU and QS World University Rankings by Subject. UNSW is located in Sydney's beautiful eastern suburbs, just 12km from the Sydney CBD and 8km from Coogee Beach. Sydney is Australia's largest city, as well as one of the most livable cities in the world.
 
-We have 1-2 PhD positions opening for outstanding candidates for 3.5 years. The ideal candidate will be based in School of Computer Science and Australian Artificial Intelligence Institute to conduct her/his research in one of the following topics:
+We have 1-2 PhD positions opening for outstanding candidates for 3.5 years. The ideal candidate will be based in School of Computer Science and Engineering to conduct her/his research in one of the following topics:
 
+(1) Software verification for source code and neural networks
 (1) Machine-learning based software security analysis,
-(2) Fundamental static program analysis to improve software security and reliability,
+(2) Open-source static program analysis to improve software security and reliability,
 (3) Program analysis through code embedding
-(4) Software verification and symbolic execution 
+(4) Symbolic execution and testing for fintech software. 
 
-The PhD student will be supervised under A/Prof. Yulei Sui (http://yuleisui.github.io/). The stipend of the scholarship is $30,000 per annum (tax exempt) for 3.5 years, plus travel funds for attending conferences. The qualified candidate will also receive a tuition-fee waiver. 
+The PhD student will be supervised under A/Prof. Yulei Sui (http://yuleisui.github.io/). The stipend of the scholarship is $35,000 per annum (tax exempt) for 3.5 years, plus travel funds for attending conferences. The qualified candidate will also receive a tuition-fee waiver. 
 
 We are looking for self-motivated candidates who meet the following requirements:
 * a bachelor's or master's degree in the area of Computer Science or related discipline with outstanding grades. 
 * evidence of research ability - e.g. an honours thesis, a minor thesis, publication(s), and a well-developed preliminary research proposal, developed under the guidance of the supervisor;
 * strong programming skills in one of C/C++, Java and Python.
-* background in software engineering and programming skills
+* background in software engineering, machine learning and programming skills
 * understanding of our open-source project (https://github.com/svf-tools/svf) is a plus.
 
 
 HOW TO APPLY
 
-Detailed application steps can be found at https://yuleisui.github.io/files/PhD-application.txt
+Detailed application steps can be found at https://research.unsw.edu.au/how-apply
 
 To apply for the scholarships, you must complete an application consisting of:
 * A brief (2-4 pages) research proposal outlining your interest and suitability for the project;
 * A detailed curriculum vitae with publications (if applicable);
 * Undergraduate and/or master transcripts;
-* All applicants, domestic and international, must meet the English Language entry requirements (https://www.uts.edu.au/future-students/international/essential-information/entry-requirements/english-language) to be considered for unconditional admission and the scholarship. 
-* Recommendation letters from at least one referee.
+* All applicants, domestic and international, must meet the English Language entry requirements (https://www.unsw.edu.au/study/how-to-apply/international/entry-requirements) to be considered for unconditional admission and the scholarship. 
+* Recommendation letters from at least two referees.
 
-If you are already a PhD student studying China, India and Korea, you may also wish to apply for UTS Dual Degrees program with scholarships supported from UTS (You can obtain two degrees in both UTS and one of our Key Technology Partners). Please refer to https://www.uts.edu.au/research-and-teaching/research-degrees/explore-uts-research-degrees/benefits-research-degree-0.
+If you are from China, Vietnam, Pakistan, Chile, Germany, Austria and Switzerland, you may also wish to apply for the joint program supported by your home country scholarships. Please refer to https://research.unsw.edu.au/unsw-home-country-joint-scholarships.
 
-The positions are open until filled. Please submit the application documents to A/Prof. Yulei Sui: yulei.sui@uts.edu.au.
+The positions are open until filled. Please submit the application documents to A/Prof. Yulei Sui: y.sui@unsw.edu.au.
 
 
