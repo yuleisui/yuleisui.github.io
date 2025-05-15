@@ -1,16 +1,16 @@
-Software engineering and machine learning PhD positions/scholarships available at University of New South Wales (UNSW), Australia
+Software engineering PhD positions/scholarships available at University of New South Wales (UNSW), Australia
 
 UNSW is one of the founding members of Group of Eight and a top 50 world-leading university. In the 2022 QS World University Rankings, UNSW is ranked 44th in the world. UNSW Computer Science and Engineering is ranked 1st in Australia based on Times Subject Ranking 2021. UNSW is also ranked 1st in Australia for its Engineering & Technology Faculty according to ARWU and QS World University Rankings by Subject. UNSW is located in Sydney's beautiful eastern suburbs, just 12km from the Sydney CBD and 8km from Coogee Beach. Sydney is Australia's largest city, as well as one of the most livable cities in the world.
 
 We have 1-2 PhD positions opening for outstanding candidates for 3.5 years. The ideal candidate will be based in School of Computer Science and Engineering to conduct her/his research in one of the following topics:
 
 (1) Software verification for source code and neural networks
-(1) Machine-learning based software security analysis,
+(1) Machine-learning based software analysis,
 (2) Open-source static program analysis to improve software security and reliability,
 (3) Program analysis through code embedding
 (4) Symbolic execution and testing for fintech software. 
 
-The PhD student will be supervised under A/Prof. Yulei Sui (http://yuleisui.github.io/). The stipend of the scholarship is $35,000 per annum (tax exempt) for 3.5 years, plus travel funds for attending conferences. The qualified candidate will also receive a tuition-fee waiver. 
+The PhD student will be supervised under A/Prof. Yulei Sui (http://yuleisui.github.io/). UNSW standard stipend of the scholarship for 3.5 years, plus travel funds for attending conferences. The qualified candidate will also receive a tuition-fee waiver. 
 
 We are looking for self-motivated candidates who meet the following requirements:
 * a bachelor's or master's degree in the area of Computer Science or related discipline with outstanding grades. 
