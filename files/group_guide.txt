@@ -1,0 +1,48 @@
+---------- Research Guideline in the Group (for future and current students)------------
+
+
+## 1. Use of Generative AI (e.g., ChatGPT, Copilot, Gemini)
+	- Risk for using Generative AI: Generated content must be carefully verified for originality. Do not copy-paste AI outputs without review or modification. You are fully responsible for the accuracy and integrity of anything submitted under your name and our group.
+
+	- Intellectual Contribution: AI-generated content must not replace original research contributions or critical thinking. It may assist with language improvement, idea brainstorming, or non-novel code snippets, but it cannot serve as a co-author or a substitute for substantive input.
+
+	- Transparency: Any use of generative AI tools should be carefully checked or clearly documented. If AI-assisted content (e.g., text generation, coding help, data analysis) is included in your writing, its use must be examined carefully or declared in accordance with the target venue’s policy.
+
+
+## 2. Paper Submissions and Approval Process
+	- Supervisor Approval: No paper may be submitted without prior written approval from your supervisor(s), including the final draft. Early planning and sharing of timelines are encouraged.
+
+	- Internal Review: All papers must undergo internal review within the group before submission. This includes allowing sufficient time for feedback and revisions.
+
+	- Conference Deadlines: Inform the supervisor at least two weeks before the intended submission deadline. Last-minute submissions are discouraged unless previously discussed and agreed upon.
+
+
+## 3. Co-authorship and Contribution
+	- Authorship Discussions: Discuss authorship and roles early in the project and revisit as needed. 
+
+	- Fair Attribution: Co-authors must have made an intellectual contribution to the work (e.g., idea formulation, technical design, analysis, in-depth discussion, implementation, writing and editing).
+
+
+## 4. Simultaneous Submissions and Dual Publishing
+	- No Dual Submissions: Submitting the same or substantially overlapping content to multiple venues simultaneously is strictly prohibited.
+
+	- Extension of Previous Work: If submitting an extension of previously published work (e.g., from a workshop), clearly disclose the relationship and cite the earlier version.
+
+	- ArXiv Posting: Preprints may be uploaded to arXiv only after discussion with and approval from the supervisor. Be mindful of venue-specific policies on preprints.
+
+
+## 5. Reproducibility: 
+
+	- All research code, frameworks, and tools developed should be well-documented, version-controlled (e.g., via Git), and structured to support reproducibility.
+
+	- Group Ownership: Frameworks developed using group resources or as part of a group project are considered group and university assets, not private codebases. 
+
+	- You are strongly encouraged in developing high-quality implementation for your own framework rather than directly minor modifications of others' frameworks to conduct your core implementations.
+
+
+## 6. External communication and Accountability for the group
+
+	- Responsibility: You are accountable for the integrity, originality, and quality of your research outputs. When in doubt, ask before acting.
+
+	- Professional Conduct: Uphold the highest standards of academic integrity, collaboration, and respect in all group and external research interactions.
+
