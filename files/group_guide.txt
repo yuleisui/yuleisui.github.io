@@ -1,4 +1,4 @@
----------- Research Guideline in the Group (for future and current students)------------
+---------- Research Guideline in my group (for future and current students)------------
 
 
 ## 1. Use of Generative AI (e.g., ChatGPT, Copilot, Gemini)
@@ -10,7 +10,7 @@
 
 
 ## 2. Paper Submissions and Approval Process
-	- Supervisor Approval: No paper may be submitted without prior written approval from your supervisor(s), including the final draft. Early planning and sharing of timelines are encouraged.
+	- Supervisor Approval: No paper should be submitted without prior approval from the supervisor(s), including the final draft. Early planning and sharing of timelines are encouraged.
 
 	- Internal Review: All papers should undergo internal review within the group/co-authors before submission. The first author needs to proactively reach out to them and this includes allowing sufficient time for feedback and revisions.
 
