@@ -12,7 +12,7 @@
 ## 2. Paper Submissions and Approval Process
 	- Supervisor Approval: No paper may be submitted without prior written approval from your supervisor(s), including the final draft. Early planning and sharing of timelines are encouraged.
 
-	- Internal Review: All papers must undergo internal review within the group before submission. This includes allowing sufficient time for feedback and revisions.
+	- Internal Review: All papers should undergo internal review within the group/co-authors before submission. The first author needs to proactively reach out to them and this includes allowing sufficient time for feedback and revisions.
 
 	- Conference Deadlines: Inform the supervisor at least two weeks before the intended submission deadline. Last-minute submissions are discouraged unless previously discussed and agreed upon.
 
@@ -23,10 +23,10 @@
 	- Fair Attribution: Co-authors must have made an intellectual contribution to the work (e.g., idea formulation, technical design, analysis, in-depth discussion, implementation, writing and editing).
 
 
-## 4. Simultaneous Submissions and Dual Publishing
-	- No Dual Submissions: Submitting the same or substantially overlapping content to multiple venues simultaneously is strictly prohibited.
+## 4. Dual Publishing
+	- No Dual Submissions: Submitting the same content to multiple venues simultaneously is strictly prohibited.
 
-	- Extension of Previous Work: If submitting an extension of previously published work (e.g., from a workshop), clearly disclose the relationship and cite the earlier version.
+	- Extension of Previous Work: If submitting an extension of previously published work (e.g., from a workshop or a conference), clearly disclose the relationship and cite the earlier publication and discuss the major differences.
 
 	- ArXiv Posting: Preprints may be uploaded to arXiv only after discussion with and approval from the supervisor. Be mindful of venue-specific policies on preprints.
 
@@ -35,9 +35,9 @@
 
 	- All research code, frameworks, and tools developed should be well-documented, version-controlled (e.g., via Git), and structured to support reproducibility.
 
-	- Group Ownership: Frameworks developed using group resources or as part of a group project are considered group and university assets, not private codebases. 
+	- Group Ownership: Frameworks developed using group resources or as part of a group project are considered group or university assets, not private codebases. 
 
-	- You are strongly encouraged in developing high-quality implementation for your own framework rather than directly minor modifications of others' frameworks to conduct your core implementations.
+	- You are strongly encouraged in developing high-quality implementation for your own framework rather than direct minor modifications of others' frameworks to conduct your core implementations.
 
 
 ## 6. External communication and Accountability for the group
