@@ -2,23 +2,19 @@
 
 
 ## 1. Use of Generative AI (e.g., ChatGPT, Copilot, Gemini)
-	- Risk for using Generative AI: Generated content must be carefully verified for originality. Do not copy-paste AI outputs without review or modification. You are fully responsible for the accuracy and integrity of anything submitted under your name and our group.
+	- Generated content must be carefully verified for originality. AI-generated content must not replace original research contributions or critical thinking. If AI-assisted content is used, it must be reviewed or disclosed per the venue’s policy (conferences/journals).
 
-	- Intellectual Contribution: AI-generated content must not replace original research contributions or critical thinking. It may assist with language improvement, idea brainstorming, or non-novel code snippets, but it cannot serve as a co-author or a substitute for substantive input.
-
-	- Transparency: Any use of generative AI tools should be carefully checked or clearly documented. If AI-assisted content (e.g., text generation, coding help, data analysis) is included in your writing, its use must be examined carefully or declared in accordance with the target venue’s policy.
+	- Do not copy-paste AI outputs without review or modification. You are fully responsible for the accuracy and integrity of anything submitted under your name and our group.
 
 
 ## 2. Paper Submissions and Approval Process
-	- Supervisor Approval: No paper should be submitted without prior approval from the supervisor(s), including the final draft. Early planning and sharing of timelines are encouraged.
+	- Supervisor Approval: No paper should be submitted without prior approval from the supervisor(s), including the final draft. Early planning and sharing of timelines are encouraged. Inform the supervisor at least two weeks before the intended submission deadline.
 
 	- Internal Review: All papers should undergo internal review within the group/co-authors before submission. The first author needs to proactively reach out to them and this includes allowing sufficient time for feedback and revisions.
 
-	- Conference Deadlines: Inform the supervisor at least two weeks before the intended submission deadline. Last-minute submissions are discouraged unless previously discussed and agreed upon.
-
 
 ## 3. Co-authorship and Contribution
-	- Authorship Discussions: Discuss authorship and roles early in the project and revisit as needed. 
+	- Discuss authorship and roles early in the project and revisit as needed. 
 
 	- Fair Attribution: Co-authors must have made an intellectual contribution to the work (e.g., idea formulation, technical design, analysis, in-depth discussion, implementation, writing and editing).
 
@@ -35,14 +31,14 @@
 
 	- All research code, frameworks, and tools developed should be well-documented, version-controlled (e.g., via Git), and structured to support reproducibility.
 
-	- Group Ownership: Frameworks developed using group resources or as part of a group project are considered group or university assets, not private codebases. 
+	- Frameworks developed using group resources or as part of a group project are considered group or university assets, not private codebases. 
 
 	- You are strongly encouraged in developing high-quality implementation for your own framework rather than direct minor modifications of others' frameworks to conduct your core implementations.
 
 
 ## 6. External communication and Accountability for the group
 
-	- Responsibility: You are accountable for the integrity, originality, and quality of your research outputs. When in doubt, ask before acting.
+	- You are accountable for the integrity, originality, and quality of your research outputs. When in doubt, please ask before acting.
 
-	- Presentation: Respectful in all group and external research interactions.
+	- Please be respectful and objective in all group and external research interactions.
 
